@@ -1,0 +1,56 @@
+.container {
+  background-color: #e3a3a3;
+  animation-name: slideRight;
+  animation-duration: 2s;
+}
+
+@keyframes slideRight {
+  to{transform: translateX(500%)}
+}
+
+#my-form{
+    width: 30%;
+    float: left;
+    padding: 2rem;
+    background: #f4f4f4;
+    border: solid red
+   
+    
+}
+#btn {
+    display: block;
+    width: 50%;
+    padding: 10px 15px;
+    border: rgb(24, 24, 203) 5px;
+    background: #e3a3a3;
+    color: #fff;
+    border-radius: 10px;
+    margin: 5px 0;
+
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  
